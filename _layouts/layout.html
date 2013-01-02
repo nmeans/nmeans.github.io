@@ -1,19 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>{{ page.title }}</title>
 
-  <!-- TODO: change name and description -->
-  <meta name="author" content="Zach Holman" />
-  <meta name="description" content="A fantastic blog that is fantastic." />
+  <meta name="author" content="Nickolas Means" />
+  <meta name="description" content="A blog ostensibly about code and beer." />
 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
 
-  <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="/css/nickolas.css" type="text/css" media="screen, projection" />
   <link rel="stylesheet" href="/css/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="/webfonts/ss-social.css" type="text/css" />
+  <link rel="stylesheet" href="/webfonts/ss-standard.css" type="text/css" />
   <link media="only screen and (max-device-width: 480px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
   <link media="only screen and (device-width: 768px)" href="/css/iphone.css" type="text/css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
@@ -21,39 +21,37 @@
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="/js/application.js"></script>
+  <script type="text/javascript" src="http://use.typekit.com/wvq4eyf.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="/webfonts/ss-social.js"></script>
+  <script type="text/javascript" src="/webfonts/ss-standard.js"></script>
+
 </head>
 
 <body>
-  <section class="sidebar">
-    <a href="/">
-      <!-- TODO: change this gravatar URL -->
-      <img src="http://gravatar.com/avatar/6f63cde8b16b035280ca615f621a6c8c?s=150" height="75" width="75" class="avatar" />
-    </a>
-
-    <!-- TODO: change name -->
-    <section class="name">
-      <a href="/">
-        <span id="zach">Zach</span>
-        <span id="holman">Holman</span>
-      </a>
+  <div id="main">
+    <h1><a href="/">NICKOL.AS</a></h1>
+    <section id="sidebar">
+      <section id="photo">
+        <img src="/images/nickolas2.jpg" alt="Picture of Nickolas Means" />
+      </section>
+      <section id="about">
+        Hello, I'm <strong>Nickolas Means</strong>.<br/>
+        I'm a Rubyist from Austin, TX.<br/>
+        <a href="https://github.com/nmeans" class="ss-icon ss-social">octocat</a>
+        <a href="https://twitter.com/nmeans" class="ss-icon ss-social">twitter</a>
+        <a href="http://www.linkedin.com/in/nickolasmeans" class="ss-icon ss-social">linkedin</a>
+      </section>
+      <section id="sections">
+        <ul>
+          <li><a href="/about.html" class="ss-openbook"> About</a></li>
+          <!-- <li><a href="/archive.html" class="ss-calendar"> Archive</a></li> -->
+          <li><a href="/atom.xml" class="ss-rss"> Feed</a></li>
+        </ul>
+      </section>
     </section>
-
-    <!-- TODO: change links -->
-    <section class="meta">
-      <a href="https://github.com/holman"><img src="/images/github.png" /></a>
-      <a href="https://twitter.com/holman"><img src="/images/twitter.png"></a>
-      <a href="/atom.xml"><img src="/images/rss.png" /></a>
-    </section>
-
-    <section class="sections">
-      <ul>
-        <li><a href="/about.html">about</a></li>
-        <li><a href="/">posts</a></li>
-      </ul>
-    </section>
-  </section>
-
-  {{ content }}
+    {{ content }}
+  </div>
 </body>
 
 </html>

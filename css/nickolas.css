@@ -1,0 +1,371 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, b, cite, code,
+del, dfn, em, i, img, ins, kbd, q, samp,
+strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td
+    {margin: 0; padding: 0; border: 0; outline: 0; font-size: inherit;
+     line-height: inherit; vertical-align: baseline; background: transparent;}
+html {font-size:100.01%;}
+caption, cite, code, dfn, th, var {font-style: normal; font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';}
+:focus {outline: 0;}
+
+body
+{
+  font: 11pt/16pt 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #444;
+  padding: 1.5em 0.25em 5em;
+  background-image: url(/images/dust.png);
+}
+
+a {text-decoration: none;}
+
+#main
+{
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1
+{
+  font-size: 6em; 
+  line-height:1; 
+  padding:0.5em 0 1em; 
+  text-align:center; 
+  font-family:"league-gothic-1","league-gothic-2";
+}
+
+h1 a 
+{
+  color: #000;
+  padding: 0 0.25em;
+  font-weight: 900;
+  border-bottom: none;
+}
+
+h2, h3 
+{
+  line-height: 18pt;
+  font-family:"museo-slab-1","museo-slab-2"; 
+  font-weight: 700; 
+  color: #000;
+}
+
+h4, h5, h6
+{
+  font-family:"museo-slab-1","museo-slab-2";
+  font-weight: 500; 
+  color:#222222
+}
+
+p, pre, ul, ol, blockquote, form
+{
+  margin: 9pt 0 9pt;
+  line-height: 18pt;
+}
+
+blockquote
+{
+  padding-left: 1em;
+  margin-left: 2pt;
+  border-left: 0.25em solid #bbb;
+}
+
+pre
+{
+  overflow-x: auto;
+  font-size: 11pt;
+}
+
+sup, sub 
+{
+  height: 0; 
+  line-height: 1; 
+  vertical-align: baseline; 
+  _vertical-align: bottom; 
+  position: relative;
+}
+
+sup 
+{
+  bottom: 0.5ex;
+}
+
+sub 
+{
+  top: 0.5ex;
+}
+
+sup a
+{
+  font-weight: normal !important; 
+  padding: 0 1px;
+}
+
+hr 
+{
+  height: 0;
+  margin: 0 0 18pt;
+  border: solid #bbb;
+  border-width: 2pt 0 0;
+}
+
+#sidebar 
+{
+  position: absolute;
+  left: 545px;
+  color: #444;
+  font-size: 10pt;
+  width: 190px;
+}
+
+#sidebar p, #sidebar form, #sidebar ul
+{
+  margin-top: 0;
+}
+
+#sidebar a 
+{
+  color: #444;
+}
+
+#sidebar a:hover 
+{
+  color: #000;
+}
+
+#sidebar .submit 
+{
+  height: 0;
+  overflow: hidden; 
+  display: block;
+}
+
+#sidebar #about a 
+{
+  padding-left: 2px;
+  padding-right: 2px; 
+  padding-top: 2px;
+}
+
+#sidebar #sections 
+{
+  margin-top: 9pt;
+}
+
+#sidebar #sections ul
+{
+  list-style: none; 
+  word-spacing: 0.25em; 
+  font-size: 9pt;
+}
+
+#sidebar #sections a 
+{
+  color: #aaa;
+}
+
+#sidebar #sections a:hover 
+{
+  color: #444;
+}
+
+#meta
+{
+  padding-top: 5px;
+  border-top: 1px solid #DDD;
+}
+
+#posts 
+{
+  margin: 0;
+}
+
+.post 
+{
+  position: relative; 
+  list-style: none; 
+  margin-bottom: 4.5em;
+}
+
+.post ul li 
+{
+  list-style: square;
+}
+
+.post img 
+{
+  max-width: 100%;
+}
+
+.post-body h2 
+{
+  font-size: 1.25em;
+  position: relative;
+}
+
+.post-body a, #meta a
+{
+  color: #444; 
+  border-bottom: 1px dotted #666;
+}
+
+.post-body a:hover, #meta a:hover
+{
+  color: #000 !important;
+  border-bottom-color: #000;
+  border-bottom-style: solid;
+}
+
+.post-body a:visited, #meta a:visited
+{
+  color: #444;
+}
+
+.post-body .image a 
+{
+  border-width: 0;
+}
+
+.post-body ul ul, .post-body ul ol, .post-body ol ol, .post-body ol ul,
+.post-body blockquote ul, .post-body blockquote ol 
+{
+  margin-left: 1.5em;
+}
+
+.post-body h2 a
+{
+  border-bottom: 1px dotted transparent;
+}
+
+.post-body h2 a:hover
+{
+  border-bottom-color: #444;
+}
+
+a.permalink, span.dateline
+{
+  font-size: 11pt;
+  position: absolute; 
+  right: 530px; 
+  text-align: right;
+  color: #bbb;
+  white-space: nowrap;
+  padding: 0 0 4.5pt 9pt;
+  font-family:"museo-slab-1","museo-slab-2"; 
+}
+
+a.permalink:hover 
+{
+  color: #444;
+}
+
+.caption, .cite 
+{
+  font-size: 11pt;
+  margin-top: 9pt;
+}
+
+.caption p 
+{
+  margin-top: 18pt;
+}
+
+.text-post 
+{
+  position: relative;
+  top: -2pt;
+}
+
+.text-post h2 
+{
+  margin-bottom: 16pt;
+  font-size: 1.75em;
+  font-weight: 700
+}
+
+.text-post h3 
+{
+  font-size: 1.3em;
+  font-weight: 500
+}
+
+.text-post h4 
+{
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: -9pt;
+}
+
+.text-post ul
+{
+  margin-left: 1.5em;
+}
+
+.link-post 
+{
+  position: relative;
+  top: -2pt;
+}
+
+.link-post h2 
+{
+  display: inline;
+  padding-right:9pt;
+  font-size: 1.25em;
+}
+
+.link-post a 
+{
+  color: #444;
+}
+
+.link-post a:hover 
+{
+  color: #222222;
+}
+
+.link-post a.link 
+{
+  color: #000;
+}
+
+.link-post a.link:hover 
+{
+  color: #444;
+}
+
+.gist-highlight pre 
+{
+  font-size: 85% !important;
+}
+
+.gist-meta 
+{
+  font-size: 70% !important;
+}
+
+#footer 
+{
+  text-align: center;
+  word-spacing: 0.75em;
+  margin-top:4.5em;
+}
+
+#footer a 
+{
+  color: #222222;
+  font-weight:bold;
+  padding: 0.25em 0.5em;
+}
+
+#footer a:hover
+{
+  color: #444;
+}
