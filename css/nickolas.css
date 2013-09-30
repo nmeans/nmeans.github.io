@@ -34,33 +34,38 @@ a {text-decoration: none;}
 
 h1
 {
-  font-size: 6em; 
-  line-height:1; 
-  padding:0.5em 0 1em; 
-  text-align:center; 
+  font-size: 6em;
+  line-height:1;
+  padding:0.5em 0 1em;
+  text-align:center;
   font-family:"league-gothic-1","league-gothic-2";
 }
 
-h1 a 
+h1 a
 {
   color: #000;
   padding: 0 0.25em;
   font-weight: 900;
   border-bottom: none;
 }
+h2.about
+{
+  font-size: 2em;
+  line-height: 36pt;
+}
 
-h2, h3 
+h2, h3
 {
   line-height: 18pt;
-  font-family:"museo-slab-1","museo-slab-2"; 
-  font-weight: 700; 
+  font-family:"museo-slab-1","museo-slab-2";
+  font-weight: 700;
   color: #000;
 }
 
 h4, h5, h6
 {
   font-family:"museo-slab-1","museo-slab-2";
-  font-weight: 500; 
+  font-weight: 500;
   color:#222222
 }
 
@@ -83,32 +88,32 @@ pre
   font-size: 11pt;
 }
 
-sup, sub 
+sup, sub
 {
-  height: 0; 
-  line-height: 1; 
-  vertical-align: baseline; 
-  _vertical-align: bottom; 
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  _vertical-align: bottom;
   position: relative;
 }
 
-sup 
+sup
 {
   bottom: 0.5ex;
 }
 
-sub 
+sub
 {
   top: 0.5ex;
 }
 
 sup a
 {
-  font-weight: normal !important; 
+  font-weight: normal !important;
   padding: 0 1px;
 }
 
-hr 
+hr
 {
   height: 0;
   margin: 0 0 18pt;
@@ -116,7 +121,7 @@ hr
   border-width: 2pt 0 0;
 }
 
-#sidebar 
+#sidebar
 {
   position: absolute;
   left: 545px;
@@ -130,48 +135,48 @@ hr
   margin-top: 0;
 }
 
-#sidebar a 
+#sidebar a
 {
   color: #444;
 }
 
-#sidebar a:hover 
+#sidebar a:hover
 {
   color: #000;
 }
 
-#sidebar .submit 
+#sidebar .submit
 {
   height: 0;
-  overflow: hidden; 
+  overflow: hidden;
   display: block;
 }
 
-#sidebar #about a 
+#sidebar #about a
 {
   padding-left: 2px;
-  padding-right: 2px; 
+  padding-right: 2px;
   padding-top: 2px;
 }
 
-#sidebar #sections 
+#sidebar #sections
 {
   margin-top: 9pt;
 }
 
 #sidebar #sections ul
 {
-  list-style: none; 
-  word-spacing: 0.25em; 
+  list-style: none;
+  word-spacing: 0.25em;
   font-size: 9pt;
 }
 
-#sidebar #sections a 
+#sidebar #sections a
 {
   color: #aaa;
 }
 
-#sidebar #sections a:hover 
+#sidebar #sections a:hover
 {
   color: #444;
 }
@@ -182,29 +187,29 @@ hr
   border-top: 1px solid #DDD;
 }
 
-#posts 
+#posts
 {
   margin: 0;
 }
 
-.post 
+.post
 {
-  position: relative; 
-  list-style: none; 
+  position: relative;
+  list-style: none;
   margin-bottom: 4.5em;
 }
 
-.post ul li 
+.post ul li
 {
   list-style: square;
 }
 
-.post img 
+.post img
 {
   max-width: 100%;
 }
 
-.post-body h2 
+.post-body h2
 {
   font-size: 1.25em;
   position: relative;
@@ -212,7 +217,7 @@ hr
 
 .post-body a, #meta a
 {
-  color: #444; 
+  color: #444;
   border-bottom: 1px dotted #666;
 }
 
@@ -228,13 +233,13 @@ hr
   color: #444;
 }
 
-.post-body .image a 
+.post-body .image a
 {
   border-width: 0;
 }
 
 .post-body ul ul, .post-body ul ol, .post-body ol ol, .post-body ol ul,
-.post-body blockquote ul, .post-body blockquote ol 
+.post-body blockquote ul, .post-body blockquote ol
 {
   margin-left: 1.5em;
 }
@@ -252,51 +257,51 @@ hr
 a.permalink, span.dateline
 {
   font-size: 11pt;
-  position: absolute; 
-  right: 530px; 
+  position: absolute;
+  right: 530px;
   text-align: right;
   color: #bbb;
   white-space: nowrap;
   padding: 0 0 4.5pt 9pt;
-  font-family:"museo-slab-1","museo-slab-2"; 
+  font-family:"museo-slab-1","museo-slab-2";
 }
 
-a.permalink:hover 
+a.permalink:hover
 {
   color: #444;
 }
 
-.caption, .cite 
+.caption, .cite
 {
   font-size: 11pt;
   margin-top: 9pt;
 }
 
-.caption p 
+.caption p
 {
   margin-top: 18pt;
 }
 
-.text-post 
+.text-post
 {
   position: relative;
   top: -2pt;
 }
 
-.text-post h2 
+.text-post h2
 {
   margin-bottom: 16pt;
   font-size: 1.75em;
   font-weight: 700
 }
 
-.text-post h3 
+.text-post h3
 {
   font-size: 1.3em;
   font-weight: 500
 }
 
-.text-post h4 
+.text-post h4
 {
   font-size: 1em;
   font-weight: 500;
@@ -308,57 +313,57 @@ a.permalink:hover
   margin-left: 1.5em;
 }
 
-.link-post 
+.link-post
 {
   position: relative;
   top: -2pt;
 }
 
-.link-post h2 
+.link-post h2
 {
   display: inline;
   padding-right:9pt;
   font-size: 1.25em;
 }
 
-.link-post a 
+.link-post a
 {
   color: #444;
 }
 
-.link-post a:hover 
+.link-post a:hover
 {
   color: #222222;
 }
 
-.link-post a.link 
+.link-post a.link
 {
   color: #000;
 }
 
-.link-post a.link:hover 
+.link-post a.link:hover
 {
   color: #444;
 }
 
-.gist-highlight pre 
+.gist-highlight pre
 {
   font-size: 85% !important;
 }
 
-.gist-meta 
+.gist-meta
 {
   font-size: 70% !important;
 }
 
-#footer 
+#footer
 {
   text-align: center;
   word-spacing: 0.75em;
   margin-top:4.5em;
 }
 
-#footer a 
+#footer a
 {
   color: #222222;
   font-weight:bold;
