@@ -7,7 +7,7 @@ category: posts
 
 It reared its ugly head again this summer when I started a [new job](http://www.wellmatchhealth.com/). As part of my training, I had the good fortune of spending a month pairing in the [Hashrocket](http://www.hashrocket.com/) offices in Jacksonville, FL. Working with some of the sharpest developers I've ever met was a fantastic learning experience, but it wasn't easy.
 
-When I walked in that first day and sat down next to [Micah Cooper](https://twitter.com/mrmicahcooper), I felt out of my depth. Micah was warm, friendly, helpful, and encouraging, but he was also much better at [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) (our editor of choice) than me, and he practiced [outside-in development](https://en.wikipedia.org/wiki/Outside%E2%80%93in_software_development) like it was second nature while I fumbled along.
+When I walked in that first day and sat down next to [Micah Cooper](https://twitter.com/mrmicahcooper), I felt out of my depth. Micah was warm, friendly, helpful, and encouraging, but he was also much better at [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor\)) (our editor of choice) than me, and he practiced [outside-in development](https://en.wikipedia.org/wiki/Outside%E2%80%93in_software_development) like it was second nature while I fumbled along.
 
 It's not like I wasn't prepared. I knew when I got on the plane to Jacksonville that I would be learning a new codebase as well as a new set of development practices concurrently. I fully expected that doing this with a Hashrocket developer sitting next to me would make me doubt my own abilities, and it did. 
 
